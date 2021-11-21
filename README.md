@@ -1,44 +1,40 @@
 # NT4.1 Поднятие веб-сервера
-#Установка и запуск веб-сервера в Linux
-#Цель работы
+# Установка и запуск веб-сервера в Linux
+# Цель работы
 Освоить основные навыки установки и первоначальной настройки веб-сервера в ОС Linux.
-#Задания для выполнения
+# Задания для выполнения
 Используя apt-get установить Apache2 на виртуальную машину  
-![image](https://user-images.githubusercontent.com/70998859/142633612-a1a2241e-0bed-402d-b063-f07144c3e6ec.png)  
+![image](https://user-images.githubusercontent.com/70998859/142777405-d0f7f513-01fd-4b82-a9d3-9930781e1167.png)  
 С браузера хост-машины по IP-адресу виртуальной машины увидеть приветствие  
-![image](https://user-images.githubusercontent.com/70998859/142634505-c5f6b9b4-8e7c-4505-a71d-ac399255fc8b.png)  
+![image](https://user-images.githubusercontent.com/70998859/142777476-95cc1ecd-a567-4a14-b6e0-bed77b22d805.png)  
 В настройках сервера изменить  порт на :8080  
-![image](https://user-images.githubusercontent.com/70998859/142635013-b7a0743c-1778-4170-a903-286449b3590e.png)  
-![image](https://user-images.githubusercontent.com/70998859/142635687-26908ebb-e5e6-4708-836a-ef5fc358bf52.png)  
+![image](https://user-images.githubusercontent.com/70998859/142777539-7c67054d-37ad-4cfc-8ed1-eee80afb7092.png)  
+![image](https://user-images.githubusercontent.com/70998859/142777593-b711df52-8235-4eff-a751-184118fd409b.png)   
 Снова выполнить п 2, но с указанием порта  
-![image](https://user-images.githubusercontent.com/70998859/142636002-bc8d45f3-8e3b-4e08-bfd8-c9f4f6602cff.png)  
+![image](https://user-images.githubusercontent.com/70998859/142777601-68db16b9-9837-4cdc-a99d-76e711c9450d.png)  
 Изменить порт обратно и проверить как работает заглушка  
-![image](https://user-images.githubusercontent.com/70998859/142636403-f82c5a55-be35-4a7a-b5b7-29381e3c0cb6.png)  
-![image](https://user-images.githubusercontent.com/70998859/142636432-1fb5d32f-1ef4-4034-b37e-f5fe6e8f0c84.png)  
-![image](https://user-images.githubusercontent.com/70998859/142636508-f6031f24-cc9d-47fb-8236-7be035c5e71b.png)  
+![image](https://user-images.githubusercontent.com/70998859/142777672-9ed0e9cd-9de4-4f06-930c-8db4fcc32262.png)  
+![image](https://user-images.githubusercontent.com/70998859/142777678-59032979-8f9b-410b-8950-0cc9e2c49bd5.png)   
+![image](https://user-images.githubusercontent.com/70998859/142777662-d4d0fda2-c31b-44ca-a378-46f3d10a3158.png)  
 В hosts хост-машины создать три домена: a1.com, b2.com, c3.com и связываем с IP виртуальной машины с Apache  
-
-Для каждого домена проверить всё ли правильно, с помощью ping
-Зайти на все три домена, написав их вместо IP виртуальной машины
-Создать директории /var/www/a1.com, /var/www/b2.com, /var/www/c3.com
-В каждой из них создать пустой index.html
-В каждом из них написать различное содержимое
+![image](https://user-images.githubusercontent.com/70998859/142777848-778bcc50-147a-48ac-aea8-94b8b7c1017d.png)  
+Для каждого домена проверить всё ли правильно, с помощью ping  
+![image](https://user-images.githubusercontent.com/70998859/142778432-df0057ae-1218-4222-b2bd-772bfa7ae713.png)  
+![image](https://user-images.githubusercontent.com/70998859/142778456-dc6664b3-f168-4a6e-96d7-3ef7c9030d66.png)  
+![image](https://user-images.githubusercontent.com/70998859/142778459-b107a719-6c8f-4055-b800-f2e83e901c5d.png)  
+Зайти на все три домена, написав их вместо IP виртуальной машины  
+![image](https://user-images.githubusercontent.com/70998859/142778487-cc5772b3-dcc3-408d-bef7-340b5153d21b.png)  
+![image](https://user-images.githubusercontent.com/70998859/142778496-41b92fc9-78b3-4e27-9d9a-3f9ea3b4f11e.png)  
+![image](https://user-images.githubusercontent.com/70998859/142778504-0dc4e767-9555-449f-9dff-c172e021f299.png)  
+Создать директории /var/www/a1.com, /var/www/b2.com, /var/www/c3.com  
+![image](https://user-images.githubusercontent.com/70998859/142778592-f75f5811-4214-4b89-9dfd-f3ff8c9a32e9.png)  
+В каждой из них создать пустой index.html  
+![image](https://user-images.githubusercontent.com/70998859/142778676-af3d7920-f042-4b44-a66c-64f6f3b3cf90.png)  
+В каждом из них написать различное содержимое  
+![image](https://user-images.githubusercontent.com/70998859/142778810-ed7a7b61-50e6-4b20-bffc-48f63b6b8452.png)  
+![image](https://user-images.githubusercontent.com/70998859/142778815-34406f19-670e-4c58-9620-267a3f872e06.png)  
+![image](https://user-images.githubusercontent.com/70998859/142778817-8f23980b-7dd1-4ec5-84be-d227e18217a4.png)  
 Сделать так, чтобы из браузеров хост-машины открывались сайты из директории, а не общая заглушка
-#Методические указания
-1.	Заручившись правами root, выполните в консоли команду apt-get update, а после того и apt-get install apache2. Вы должны увидеть стандартный вывод программы-установщика пакета.
-
-2.	Узнав ip виртуалки через ifconfig, вбейте его в адресную строку браузера хост-машины. Вы должны увидеть стандартную страницу-заглушку приветствия веб-сервера. То же самое можно наблюдать в браузере самой Linux-машины по адресу localhost или 127.0.0.1
-
-3.	Apache каждому пользователю свои конфигурационные файлы редактировать не даёт. Поэтому нужно либо разрешить изменение этих файлов своему пользователю через chmod, либо выполнять все настройки используя sudo.
-Далее поменяйте в /etc/apache2/ports.conf либо /etc/apache2/httpd.conf строчку Listen 80 на Listen 8080. 
-Ещё в /etc/apache2/sites-available/default строчку <VirtualHost *:8080>
-После этого выполните service apache2 restart, чтобы все изменения заработали
-4.	Проверим через браузер возможность работы через нестандартный порт, вбив адрес localhost:8080 либо 127.0.0.1:8080
-
-6.	Найдите на хост машине файл hosts. Там необходимо дописать 3 строчки
-
-7.	На этапе проверки выяснится, что NAT для таких дел не подходит, потому как к машине за NAT нельзя обратиться из внешней сети. С сетевым мостом тоже не все гладко, ВМ просто не может подключиться к нему.
-Идеальный тип сетевого адаптера зависит от того, с каких машин мы планируем подключаться к серверу на виртуальной машине. Если нам нужно работать только с хост машины, нам больше всего подходит виртуальный адаптер хоста.
-
-8.	А вот и тест сайта с браузера машины-хоста
-
+![image](https://user-images.githubusercontent.com/70998859/142778949-c1cfe445-04da-4edd-99b2-9d23c0dfaa23.png)
+![image](https://user-images.githubusercontent.com/70998859/142778958-f57f15d1-707b-4a5d-a12d-666e1b783d3a.png)
+Сайты открываются:
