@@ -1,8 +1,8 @@
 # NT4.1 Поднятие веб-сервера
-# Установка и запуск веб-сервера в Linux
-# Цель работы
+## Установка и запуск веб-сервера в Linux
+## Цель работы
 Освоить основные навыки установки и первоначальной настройки веб-сервера в ОС Linux.
-# Задания для выполнения
+## Задания для выполнения
 Используя apt-get установить Apache2 на виртуальную машину  
 ![image](https://user-images.githubusercontent.com/70998859/142777405-d0f7f513-01fd-4b82-a9d3-9930781e1167.png)  
 С браузера хост-машины по IP-адресу виртуальной машины увидеть приветствие  
@@ -27,14 +27,17 @@
 ![image](https://user-images.githubusercontent.com/70998859/142778496-41b92fc9-78b3-4e27-9d9a-3f9ea3b4f11e.png)  
 ![image](https://user-images.githubusercontent.com/70998859/142778504-0dc4e767-9555-449f-9dff-c172e021f299.png)  
 Создать директории /var/www/a1.com, /var/www/b2.com, /var/www/c3.com  
-![image](https://user-images.githubusercontent.com/70998859/142778592-f75f5811-4214-4b89-9dfd-f3ff8c9a32e9.png)  
+![image](https://user-images.githubusercontent.com/70998859/142779601-2116c05f-fd39-4438-a341-75e0455b4b1e.png)  
 В каждой из них создать пустой index.html  
-![image](https://user-images.githubusercontent.com/70998859/142778676-af3d7920-f042-4b44-a66c-64f6f3b3cf90.png)  
+![image](https://user-images.githubusercontent.com/70998859/142779659-5f0b7c91-bfe6-4034-8ecc-4c60fdfd1d8f.png)  
 В каждом из них написать различное содержимое  
 ![image](https://user-images.githubusercontent.com/70998859/142778810-ed7a7b61-50e6-4b20-bffc-48f63b6b8452.png)  
 ![image](https://user-images.githubusercontent.com/70998859/142778815-34406f19-670e-4c58-9620-267a3f872e06.png)  
 ![image](https://user-images.githubusercontent.com/70998859/142778817-8f23980b-7dd1-4ec5-84be-d227e18217a4.png)  
 Сделать так, чтобы из браузеров хост-машины открывались сайты из директории, а не общая заглушка
-![image](https://user-images.githubusercontent.com/70998859/142778949-c1cfe445-04da-4edd-99b2-9d23c0dfaa23.png)
-![image](https://user-images.githubusercontent.com/70998859/142778958-f57f15d1-707b-4a5d-a12d-666e1b783d3a.png)
-Сайты открываются:
+![image](https://user-images.githubusercontent.com/70998859/142779878-fdb40087-0d51-40e9-bb96-54bb32d32698.png)  
+Сайты открываются:  
+![image](https://user-images.githubusercontent.com/70998859/142779895-e36ccd12-bdfa-4e5c-8c71-382e1bf3c9f8.png)  
+![image](https://user-images.githubusercontent.com/70998859/142779906-c0222011-6774-43ce-bcd4-e5b72d074f86.png)  
+![image](https://user-images.githubusercontent.com/70998859/142779912-e341f87c-86f8-4704-9142-449ac16f1328.png)  
+
